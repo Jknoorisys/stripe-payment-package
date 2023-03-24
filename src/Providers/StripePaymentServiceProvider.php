@@ -41,7 +41,7 @@ class StripePaymentServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/stripe.php', 'stripeSubscription'
+            __DIR__.'/../config/stripe.php', 'stripePayment'
         );
     }
 }
